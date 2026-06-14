@@ -1,0 +1,14 @@
+div {
+  background-color: lightgreen;
+  margin-bottom: 20px;
+  height: 100px;
+  border: 2px solid black;
+}
+.para {
+  color: red;
+  font-size: 20px;
+}
+#second {
+  color: blue;
+  font-size: 18px;
+}
