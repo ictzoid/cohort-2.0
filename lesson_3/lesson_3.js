@@ -1,10 +1,13 @@
 // This is a simple comment in JavaScript
 
-// 1. Variables
+// 1. Variables - placeholders for storing data values
+
 // let firstName = "John";
 // let lastName = "Doe";
 // const age = 40;
 // const gender = "male";
+
+// var is a variable that can be reassigned, but it is not recommended to use var in modern JavaScript. Instead, use let and const.
 
 // console.log("Full Name: " + firstName + " " + lastName); //concatenation
 // console.log(`Full Name: ${firstName} ${lastName}`); //template literal
@@ -12,6 +15,7 @@
 // console.log(`Age: ${age}`); //template literal
 
 // Difference btw const and let
+
 // const cannot be reassigned, but let can be reassigned
 // const city = "Abuja";
 // console.log(`City 1: ${city}`);
@@ -19,6 +23,7 @@
 // // city = "Lagos"; // This will throw an error because city is a const
 
 // 2. Data Types
+
 // 1. String
 // let firstName = "John";
 // console.log(typeof firstName);
