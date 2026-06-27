@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="cal.css" />
+    <script src="cal.js" async></script>
+  </head>
+
+  <body>
+    <h1>Calculator</h1>
+
+    <div id="calculator">
+      <input type="text" id="display" disabled />
+      <div class="buttons">
+        <button onclick="appendToDisplay('1')">1</button>
+        <button onclick="appendToDisplay('2')">2</button>
+        <button onclick="appendToDisplay('+')">+</button>
+        <button onclick="sum()">=</button>
+        <button onclick="clearDisplay()">CLR</button>
+      </div>
+    </div>
+  </body>
+</html>
