@@ -9,9 +9,16 @@ const renderUI = () => {
     `;
 
   const button = document.querySelector("button");
+  
   button.addEventListener("click", () => {
     alert("Hi there!");
   });
 };
 
 renderUI();
+
+
+
+function greet(name) {
+  console.log(`Hello ${name}`); // vanilla js //Typescript
+}
